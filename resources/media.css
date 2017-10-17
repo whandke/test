@@ -1,0 +1,197 @@
+@media screen and (max-height: 440px) {
+	.overlay-content a {
+		font-size: 17px !important;
+		padding-bottom: 0;
+	}
+}
+
+
+@media screen and (max-width: 568px) {
+	.phone {
+		display: none;
+	}
+	
+	#contentContainer {
+		padding-top: 40%;
+	}
+	
+	#contentContainer .title {
+		padding-right: 1em;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.gallerysquarebig {
+		padding: 2px;
+	}
+	
+	.galleryleft {
+		padding-right: 2px !important;
+	}
+	
+	.galleryright {
+		padding-left: 2px !important;
+	}
+	
+	.upper {
+		padding-bottom: 2px;
+	}
+	
+	.lower {
+		padding-top: 2px;
+	}
+	
+	.amHalf {
+		padding: 2em 2em 0 2em;
+	}
+	
+	.kontakt {
+		padding: 3em 2em 0 2em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	#contentContainer {
+		padding-top: 40%;
+	}
+	
+	.pictureAM {
+		height: 300px;
+		width: 300px;
+		max-height: 100%;
+		max-width: 100%;		
+		margin: auto;
+	}
+	
+	#contentContainer .title {
+		float: right !important;
+		position: relative !important;
+		right: 0 !important;
+		margin-top: 10% !important;
+		min-width: 0;
+	}
+	
+	.ccPhoto {
+		display: none;
+	}
+	
+	.menu {
+		width: 60px;
+	}
+	
+	.menuButton {
+		height: 60px;
+	}
+	
+	header {
+		height: 50px;
+	}
+	
+	body {
+		padding: 50px 0 2em 0;
+	}
+	
+	.galleryTeaser {
+		width: auto;
+		float: none;
+		display: block;
+	}
+	
+	.aboutMe {
+		display: block;
+	}
+	
+	.amHalf {
+		width: auto;
+		display: block;
+	}
+	
+	.iconContainer {
+		width: 3.5em;
+	}
+	
+	.ddTitle {
+		margin-left: 1em;
+	}
+	
+	.title h1 {
+		font-size: 25px;
+	}
+	
+	.title h2 {
+		font-size: 10px;
+	}
+	
+	.ddTitle h1 {
+		font-size: 25px;
+	}
+	
+	.ddTitle h2 {
+		font-size: 10px;
+	}
+	
+	.dropbtn {
+		margin-right: 70px;
+	}
+	
+	.dropdown-content a {
+		font-size: 17px;
+	}
+	
+	.middleContent {
+		padding: 0 0 0 0 !important;
+	}
+	
+	.hiddenDesktop {
+		display: block !important;
+	}
+	
+	.hiddenMobile {
+		display: none;
+	}
+	
+	.button {
+		font-size: 10px;
+	}
+	
+	.arrowBtn {
+		font-size: 10px;
+	}
+	
+	.arrowBtn img {
+		height: 35px;
+	}
+	
+	.paddingTop2em {
+		padding-top: 0;
+	}
+	
+	.gallery {
+		padding: 5px;
+	}
+	
+	.left {
+		border-width: 0;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	
+  .overlay a {
+	  font-size: 20px;
+	  width: auto;
+	}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+	.middleContent {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}

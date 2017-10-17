@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="resources/style.css" type="text/css">
+	<link rel="stylesheet" href="resources/media.css" type="text/css">
+	<title>Darek Wozniak Fotografia</title>
+</head>
+<body id="body">
+	<header class="fixed">	
+		<div id="myNav" class="overlay">
+		  <div class="overlay-content">
+			<a href="index.php">Strona główna</a>
+			<a href="fotografia_slubna.php">Fotografia ślubna</a>
+			<a href="sesje_rodzinne.php">Sesje rodzinne</a>
+			<a href="zdjecia_reklamowe.php">Zdjęcia reklamowe</a>
+			<a href="reportaze_wydarzenia.php">Reportaże / Wydarzenia</a>
+			<a href="o_mnie.html">O mnie</a>
+			<a href="kontakt.html">Kontakt</a>
+			<a target="_blank" href="https://www.facebook.com/Darek-Wo%C5%BAniak-Fotografia-288546344501086/">Facebook</a>
+		  </div>
+		</div>
+	
+		<a id="logo" href="index.php">
+			<img src="resources/logo.png" alt="logo">
+		</a>
+		<div class="menu">
+			<div id="menuBtnWr" class="menuButton">
+				<div id="menuBtn" class="menuContainer" onclick="openNav(this)">
+				  <div class="bar1"></div>
+				  <div class="bar2"></div>
+				  <div class="bar3"></div>
+				</div>
+				
+				<script>
+					function openNav(x) {
+						document.getElementById("myNav").style.height = "100%";
+						document.getElementById("menuBtn").onclick = function (){closeNav(this);};
+						x.classList.toggle("change");
+					}
+
+					function closeNav(x) {
+						document.getElementById("myNav").style.height = "0%";
+						document.getElementById("menuBtn").onclick = function (){openNav(this);};
+						x.classList.toggle("change");
+					}
+				</script>
+				
+			</div>
+			<a target="_blank" href="https://www.facebook.com/Darek-Wo%C5%BAniak-Fotografia-288546344501086/" class="fa fa-facebook"></a>
+		</div>
+		<div class="phone">
+			<img src="resources/phone.svg">
+			+48 609 165 751
+		</div>
+	</header>
+	
+	<div class="mainContainer">
+	<div class="kontakt">
+		<h1>Kontakt</h1>
+	</div>
+		<div class="aboutMe">
+			<div class="amHalf">
+				<h2>Darek Woźniak</h2>
+				<div class="kontaktIcons locationIcon"><span class="iconContainer"><img src="resources/location.svg" height=".8em"></span>Gostyń (Wielkopolska)</div>
+				<div class="kontaktIcons phoneIcon"><span class="iconContainer"><img src="resources/phone.svg" height=".8em"></span>+ 48 609 165 751</div>
+				<div class="kontaktIcons mailIcon"><span class="iconContainer"><img src="resources/mail.svg" height=".8em"></span>fotografia@darekwozniak.pl</div>
+			</div>
+			<div class="amHalf">
+				<div class="contactForm">
+				<h2>Napisz do mnie</h2>
+				<form name="contactform" method="post" action="message.php">
+					<label>Twoje imię (nazwisko, jeśli chcesz)</label>
+					<input name="name">
+					
+					<label>Twój adres e-mail (do korespondencji)</label>
+					<input name="email" type="email">
+							
+					<label>Nr telefonu do Ciebie (nie obowiązkowo)</label>
+					<input name="phone" type="tel">
+							
+					<label>Twoja wiadomość</label>
+					<textarea name="message"></textarea>
+					<div class="wr">		
+					<button id="submit" name="submit" type="submit" value="Submit"><div class="arrowBtn">
+							<img src="resources/next.svg" height="50px">
+							WYŚLIJ
+						</div></button></div>
+				</form>				
+				</div>
+			</div>
+			
+		</div>	
+	</div>
+
+</body>
+</html>

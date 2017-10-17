@@ -1,0 +1,868 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=latin-ext);
+
+body {
+	background: #001a33;
+	margin: 0 0 0 0;
+	padding: 55px 0 2em 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: #001a33;
+	background-color: rgba(0,26,51, 0.5);
+	width: 1080px;
+	max-width: 100%;
+	height: 55px;
+	margin: 0 auto;
+	z-index: 20;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 1080px;
+	max-width: 100%;
+	margin: 0 auto; left:0px; right:0px;
+}
+
+.title {
+	background-color: white;
+	text-align: left;
+}
+
+.whiteBox {
+	padding: 1em 4em 1em 1em;
+	float: right;
+	margin-top: 1em;
+	margin-right: 1em;
+	box-shadow: 1em -1em #FFFFFF;
+	min-width: 300px;
+}
+
+.title h2, .dropdown h2 {
+	display: block;
+	color: #001a33;
+	font-weight: 900;
+	font-size: 12px;
+	margin-bottom: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.title h1, .dropdown h1 {
+	display: block;
+	color: black;
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-family: 'Roboto', sans-serif;
+	margin-right: auto;
+}
+
+.arrowBtn {
+	font-size: 12px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	color: black;
+}
+
+.arrowBtn img {
+	border: solid #333 1px;
+	margin-right: .5em;
+	transition: .3s;
+}
+
+#logo {
+	width: 50%;
+	height: 100%;
+}
+
+#logo img {
+	height: 100%;
+}
+
+.mainContainer {
+	text-align: center;
+	background: white;
+	width: 1080px;
+	max-width: 100%;
+	padding: 0 0 2em 0;
+	margin: 0 auto;	
+}
+
+#topContent {
+    background-image: -webkit-linear-gradient(left, #ffecce, #fff5ee); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(right, #ffecce, #fff5ee); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right, #ffecce, #fff5ee); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #ffecce, #fff5ee); /* Standard syntax */
+	position: relative;
+}
+
+.topContentBackground {
+	height: 70%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("background.jpg")
+}
+
+#contentContainer {
+	padding: 30% 8% 0 8%;
+	z-index: 2;
+	position: relative;
+}
+
+#contentContainer .title {
+	margin-top: 7.5%;
+	position: absolute;
+	right: 10%;
+	top: 35%;
+	padding: 1em;
+	padding-right: 200px;
+	min-width: 300px;
+	background-image: -webkit-linear-gradient(left, #ffecce, #e8c687); /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(right, #ffecce, #e8c687); /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(right, #ffecce, #e8c687); /* For Firefox 3.6 to 15 */
+    background-image: linear-gradient(to right, #ffecce, #e8c687); /* Standard syntax */
+	z-index: 3;
+}
+
+.ccPhoto {
+	float: left;
+}
+
+.pBigger {
+	width: 45%;
+	padding-top: 45%;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+.pSmaller {
+	width: 27.5%;
+	padding-top: 45%;
+	position: relative;
+}
+
+.rectangleDown {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding-top: 100%;
+		background-size: cover;
+		background-color: rgba(0, 0, 0, .1);
+}
+
+.imgShadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.zi1 {z-index: 1;}
+.zi2 {z-index: 2;}
+.zi3 {z-index: 3;}
+.zi4 {z-index: 4;}
+
+
+.wr {
+	width: 100%;
+	margin: 1em 0 1em 0;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+.wr a {
+	text-decoration: none;
+}
+
+.middleContent {
+	padding: 2em 10em 0 10em;
+}
+
+.middlePhoto {
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+}
+
+.arrowBtn img:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button {
+	color: black;
+	padding: .5em 3em .5em 3em;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-decoration: none;
+	float: right;
+	transition: .3s;
+}
+
+.button:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menuButton {
+	height: 4.5em;
+	background-color: #e8c687;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.menuContainer {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0px;
+	top: 0px;
+    display: block;
+    cursor: pointer;
+	z-index: 100;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+	background-color: #818181;
+}
+
+.change .bar2 {
+	opacity: 0;
+	background-color: #818181;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+	background-color: #818181;
+}
+
+.change a:hover, .change a:focus {
+    color: #f1f1f1;
+}
+
+.phone {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: .7em;
+	font-weight: 500;
+	margin: 0 2em 0 2em;
+	height: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	float: right;
+}
+
+.phone img {
+	margin: 0 1em 0 1em;
+	height: 2em;
+}
+
+.fa {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	color: white;
+	background-color: #4867aa;
+	width: 100%;
+	text-align: center;
+    text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	height: 30px;
+	transition: .1s;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.menu {
+	float: right;
+	width: 4.5em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay {
+	margin: 0 auto;
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+	left: 0;
+    background-color: rgb(0,26,51);
+    background-color: rgba(0,26,51, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+    padding: 8px;
+    text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+	font-weight: 300;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.bottomContainer {
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.galleryTeaser {
+	padding: 0 2em 0 2em;
+	width: 50%;
+	display: inline-block;
+	margin: 2em 0 0 0;
+	text-align: left;
+	box-sizing: border-box;
+	float: left;
+}
+
+.gtPhoto {
+	width: 100%;
+	padding-top: 56.25%;
+	background-size: cover;
+	display: inline-block;
+}
+
+.galleryTeaser a .arrowBtn{
+	margin-bottom: 1em;
+}
+
+.wrGT {
+	float: right;
+}
+
+.left {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #DDDDDD;
+}
+
+.aboutMe {
+	text-align: center;
+	width: 100%;
+	display: flex;
+}
+
+.aboutMe h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+	width: 100%;
+	margin-top: 0;
+}
+
+.aboutMe h2 {
+	font-size: 1.75em;
+	font-weight: 300;
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+.aboutMe p {
+	font-size: .8em;
+	font-weight: 400;
+	line-height: 150%;
+	width: 100%;
+	text-align: justify;
+}
+
+.amHalf {
+	font-weight: lighter;
+	text-align: left;
+	box-sizing: border-box;
+	width: 50%;
+	padding: 3em 3em 0 3em;
+	display: inline-block;
+}
+
+.kontaktIcons {
+	display: flex;
+	font-size: .8em;
+	font-weight: 500;
+	width: 100%;
+	padding: 1em 1em 1em 1em;
+	text-align: justify;
+	align-items: center;
+}
+
+.iconContainer {
+	width: 4em;
+	text-align: center;
+}
+
+.mailIcon img{
+	width: 2em;
+}
+
+.phoneIcon img{
+	height: 2em;
+}
+
+.locationIcon img{
+	height: 2em;
+}
+
+.frame {
+	height: 100%;
+	width: 100%;
+	line-height: 100%;
+	align-items: center;
+	text-align: center;
+	min-height: 300px;
+}
+
+.border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+.contactForm label {
+    display: block;
+    margin-top: 20px;
+	font-size: .8em;
+}
+
+.contactForm input, textarea {
+	width: 100%;
+    border: 1px solid #e8c687;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: .9em;
+    color: black;
+	resize: none;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.contactForm textarea {
+	height: 15em;
+}
+
+.contactForm button {
+	border: none;
+	background-color: white;
+	float: right;
+}
+
+.dropdown {
+	background-color: #e8c687;
+	text-align: left;
+	padding: 1em 0 1em 0;
+	vertical-align: middle;
+	position: relative;
+	z-index: 10;
+	min-height: 50px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.ddTitle {
+	margin-left: 5em;
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.ddTitle h1, h2{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.dropbtn {
+	margin-left: 10px;
+	margin-right: 8em;
+	float: right;
+	border: none;
+	background-color: transparent;
+	padding: 0 0 0 0;
+	width: 50px;
+	height: 50px;
+	transition: .3s;
+}
+
+.dropbtn img {
+	box-sizing: border-box;
+	border: solid #333 1px;
+	margin: 0 0 0 0;
+	height: 50px;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	cursor: pointer;
+}
+
+.dropbtn:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-content {
+	background-color: #e8c687;
+	position: absolute;
+    display: none;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+    width: 100%;
+	text-align: center;
+	padding: 2em 0 2em 0;
+	border-top: solid white 1px;
+	transition: .5s;
+	top: 100%;
+}
+
+.dropdown-content a {
+    color: #001a33;
+    padding: .5em .5em 0 .5em;
+    text-decoration: none;
+    display: block;
+	font-weight: 300;
+	font-size: 1.3em;
+	font-family: 'Roboto', sans-serif;
+	transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+	color: #ffffff;
+}
+
+.show {
+	display:block;
+}
+
+.rotate {
+	transform: rotate(270deg) !important;
+	-webkit-transform: rotate(270deg) !important;
+	-ms-transform: rotate(270deg) !important;
+	-moz-transform: rotate(270deg) !important;
+	-o-transform: rotate(270deg) !important;
+}
+
+.kontakt {
+	padding: 3em 2em 0 3em;
+	text-align: left;
+}
+
+.kontakt h1 {
+	font-size: 2.5em;
+	font-weight: 300;
+	margin: 0 0 0 0;
+}
+
+.hiddenDesktop {
+	display: none !important;
+}
+
+.paddingTop2em {
+	padding-top: 2em;
+}
+
+.gallery {
+	padding: 70px;
+}
+
+.galleryrow {
+	display: block;
+	overflow: hidden;
+}
+
+.galleryleft {
+	padding-right: 5px !important;
+}
+
+.galleryright {
+	padding-left: 5px !important;
+}
+
+.gallerypicture {
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	width: 50%;
+    padding-top: 50%;
+	position: relative;
+	box-sizing: border-box;
+	float: left;
+}
+
+.gallerysquarebig {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.gallerysquaresmall {
+	height: 50%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.upper {
+	padding-bottom: 5px;
+}
+
+.lower {
+	padding-top: 5px;
+}
+
+.galleryrectangle {
+	height: 100%;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.picture {
+	width: 100%;
+	height: 100%;
+	background-color: #eeeeee;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.pictureAM {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.picture:hover {
+	opacity: 0.8;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  padding: 1em .5em 1em .5em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #001a33;
+  box-sizing: border-box;
+}
+
+/* Modal Content */
+.modal-content {
+  padding: 0;
+  height: 100%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 35px;
+  font-weight: 100;
+  height: 50px;
+  width: 50px;
+  border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	margin: 20px;
+	box-sizing: border-box;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides {
+	width: 100%;
+	height: 100%;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev img,
+.next img{
+	height: 100%;
+	width: 100%;
+	filter: invert(100%);
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	background-color: rgba(255, 255 , 255, .1);
+}
+
+.prev {
+	left: 0;
+}
+
+.prev img {
+	transform: rotate(180deg) !important;
+	-webkit-transform: rotate(180deg) !important;
+	-ms-transform: rotate(180deg) !important;
+	-moz-transform: rotate(180deg) !important;
+	-o-transform: rotate(180deg) !important;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+*/
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.floatR {
+	float: right;
+}
+
+.floatL {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
